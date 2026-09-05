@@ -1,0 +1,13 @@
+{
+  "name": "playground",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:latest",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "containerEnv": {
+    "AGENT_BROWSER_EXECUTABLE_PATH": "/usr/bin/chromium"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}
